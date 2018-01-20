@@ -9,7 +9,7 @@ install:
   - pip install codecov
 
 script:
-  - false
+  - false #hurdur
 
 after_success:
   - coverage run tests.py
