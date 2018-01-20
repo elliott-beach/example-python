@@ -12,5 +12,6 @@ script:
   - true #hurdur
 
 after_success:
+  - sleep 300
   - coverage run tests.py
   - codecov
